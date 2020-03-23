@@ -11,7 +11,7 @@
       <el-tab-pane name="online">
         <span slot="label">
           <i class="fas fa-globe"></i>
-          网络资源
+          网络资源(Beta)
         </span>
         <Online :sources="sources" />
       </el-tab-pane>
