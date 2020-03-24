@@ -13,7 +13,10 @@
         将文件拖到此处，或
         <em>点击上传</em>
       </div>
-      <div class="el-upload__tip" slot="tip">只能上传jpg/png文件，且不超过500kb</div>
+      <div class="el-upload__tip" slot="tip">
+        只能上传
+        <em>VSCode可识别</em> 文件
+      </div>
     </el-upload>
   </section>
 </template>
@@ -53,5 +56,9 @@ export default {
   align-items: center;
   height: 421px;
   margin-top: 151px;
+  .el-upload__tip em {
+    color: #ff5500;
+    font-style: normal;
+  }
 }
 </style>
