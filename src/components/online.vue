@@ -76,8 +76,8 @@ export default {
 <style lang="scss" scoped>
 .container {
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, 200px);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   grid-gap: 40px 20px;
   height: 887px;
   padding: 0 33px;

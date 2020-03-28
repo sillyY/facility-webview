@@ -9,7 +9,7 @@ import {
   Upload,
 } from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
-import { event } from "./services";
+// import { event } from "./services";
 
 Vue.config.productionTip = false;
 
@@ -20,7 +20,7 @@ Vue.use(Button);
 Vue.use(Popover);
 Vue.use(Upload);
 
-event.listen();
+// event.listen();
 
 new Vue({
   render: h => h(App)
