@@ -76,13 +76,15 @@ export default {
 <style lang="scss" scoped>
 .container {
   display: grid;
-  grid-template-rows: repeat(4, 24%);
-  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px 20px;
-  min-height: 840px;
+  height: 887px;
   padding: 0 33px;
+  overflow-y: auto;
   .card {
     position: relative;
+    height: 200px;
     .content {
       position: absolute;
       top: 0;
